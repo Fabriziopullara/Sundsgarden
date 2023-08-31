@@ -1,92 +1,94 @@
 @font-face {
- font-family: 'myfont';
- src: url(fonts/fontcursive.ttf.otf);
- font-style: normal;
-
+  font-family: "myfont";
+  src: url(fonts/fontcursive.ttf.otf);
+  font-style: normal;
 }
 
 @media only screen and (max-width: 1100px) {
-  .boxes, .container {display: flex;
+  .boxes,
+  .container {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-  
+  }
 }
-}
-
-
 
 .title {
-  color: rgba(78, 93, 58, 0.879,10);
-text-align:center;
-background-color: rgb(165, 42, 42,0.5);
-border-radius: 5%;
-font-size: 2em;
-font-family: myfont ;
-font-weight:bold;
-
-
+  color: rgba(78, 93, 58, 0.879, 10);
+  text-align: center;
+  background-color: rgb(165, 42, 42, 0.5);
+  border-radius: 5%;
+  font-size: 2em;
+  font-family: myfont;
+  font-weight: bold;
 }
- 
 
-.head-2{
+.head-2 {
   margin-left: 17px;
   color: rgb(0, 0, 0);
-font-family: myfont;
-font-size: 1.5em;} 
-
+  font-family: myfont;
+  font-size: 1.5em;
+}
 
 .photo-pasta {
   margin: 40px;
   margin-bottom: 40px;
   margin-left: 150px;
-  border-radius: 10px;border-width: 1px ;
+  border-radius: 10px;
+  border-width: 1px;
   border-style: solid;
 }
-
 
 .link {
   font-size: 50px;
   text-align: center;
   padding-bottom: 30px;
-  font-family:myfont;
-font-weight: bold;}
+  font-family: myfont;
+  font-weight: bold;
+}
 
 .link:hover {
-font-size: 70px;
+  font-size: 70px;
 }
-  
-.prep, .ingredients {
-font-style: oblique;
-  text-align:justify;}
-  
-p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: larger;padding-right: 20px;padding-left: 20px;}
- 
 
- 
+.prep,
 .ingredients {
-  float: left;margin-left: 20;font-style: oblique;}
- 
-.time-required{
-  margin-left: 40%;margin-top:  40px;font-style: oblique;font-size: 20px;
+  font-style: oblique;
+  text-align: justify;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.ingredients {
+  float: left;
+  margin-left: 20;
+  font-style: oblique;
+}
+
+.time-required {
+  margin-left: 40%;
+  margin-top: 40px;
+  font-style: oblique;
+  font-size: 20px;
   width: 200px;
- padding: 50px;
- margin: 20px;
- align-items: center;
- ;}
-  
-
-
+  padding: 50px;
+  margin: 20px;
+  align-items: center;
+}
 
 h1:hover {
-  font-size: 50px;}
-  
+  font-size: 50px;
+}
+
 body {
   position: relative;
 }
-
 
 body::after {
   content: "";
@@ -96,64 +98,56 @@ body::after {
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: -1;   
-background-image:url(../Styles/Images/posate.jpg);
-background-size: cover;
-background-position: center;
-background-attachment:fixed ;
-background-color: rgb(0, 0, 0);
-  }
-
-.paragraphers {
-  width:auto;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 10px;
-  }
-  .paragraphers-2 {
-    width:auto;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 10px;
-  }
-
-  .paragraphers-3 {
-    width:auto;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 20px;
-    border-radius: 10px;}
-
-
-
-  
-
-footer{
-  text-align: center;
-  background-color: rgb(165, 42, 42,0.5);
-  padding-left: 50px;
-  
-
+  z-index: -1;
+  background-image: url(../Styles/Images/posate.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
 }
 
+.paragraphers {
+  width: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.paragraphers-2 {
+  width: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
 
+.paragraphers-3 {
+  width: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+}
 
-  .boxes{
-    display: flex;
-   justify-content:space-evenly;
-  }
+footer {
+  text-align: center;
+  background-color: rgb(165, 42, 42, 0.5);
+  padding-left: 50px;
+}
 
-  .container {
-    display: flex;
-    align-items: center;
-    padding: 40px;
-  }
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
 
 .review-box {
   display: flex;
   justify-content: center;
-flex-direction: column;
- 
+  flex-direction: column;
 }
