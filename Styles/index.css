@@ -9,7 +9,7 @@
   .boxes,
   .container,
   .nutrition-container,
-  .alternative-box   {
+  .alternative-box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -152,21 +152,21 @@ h4 {
 
 }
 
-h5{
+h5 {
   text-align: center;
   font-family: myfont;
   font-size: 30px;
 }
 
-.photo-assassina{
+.photo-assassina {
   max-width: 300px;
-  
- 
+  height: 250px;
+
 
 }
 
 .img-alternative,
-.Pasta-assassina{
+.Pasta-assassina {
   width: fit-content;
   height: fit-content;
   border-radius: 4px;
@@ -176,6 +176,16 @@ h5{
   margin-top: 90px;
 }
 
+.spaghetti-video {
+  font-size: 50px;
+  margin-left: 45%;
+  font-family: myfont;
+  font-weight: bold;
+}
+
+.spaghetti-video:hover {
+  font-size: 70px;
+}
 
 
 footer {
@@ -212,11 +222,11 @@ footer {
   margin-bottom: 10px;
 }
 
-.alternative-box{
+.alternative-box {
   display: flex;
   margin-top: 25px;
   margin-bottom: 15px;
   justify-content: space-evenly;
-  
+
 
 }
